@@ -1,0 +1,103 @@
+/* Header/logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Heading 3 */
+h3 {
+    color: white;
+    font-style: italic;
+}
+
+/* Body styles */
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles of text in form */
+.textup {
+    text-align: center; 
+    font-weight: 700;
+}
+
+/* Box form styles */
+.form-box {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(36, 67, 40, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    width: 450px;
+    height: 650px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Radio button styles */
+.radio-group {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    background-color:rgba(174, 13, 13, 0.826);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    transition: .5s linear;
+}
+
+button:hover {
+    background-color: black;
+    border: none;
+    transform: translateY(-10px);
+}
+
+/* Footer style */
+.footer {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width:600px) {
+.form-box  {
+  float: 20%;
+  width: 100%;
+  }
+}
+
+
+
