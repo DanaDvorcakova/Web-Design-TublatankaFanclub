@@ -1,0 +1,59 @@
+* {
+background-color: black;
+}
+
+/* Logo Tublatanka sticks to the top of the page when scrolling  */
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Header/logo/image Title */
+.header {
+padding: 30px;
+text-align: center;
+}
+
+body { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Table/Table headings/Table Data styles */
+table, th, td {
+border:1px white;
+border-collapse: collapse;
+border: solid;
+text-align: center;
+border-color: black;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 30px;
+}
+
+th { 
+font-size: x-large;
+font-style: italic;
+border-color:rgba(192, 16, 16, 0.621)
+}
+
+td {
+background-color:rgba(192, 16, 16, 0.621);
+}
+
+/* Footer style */
+.footer {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+
+
